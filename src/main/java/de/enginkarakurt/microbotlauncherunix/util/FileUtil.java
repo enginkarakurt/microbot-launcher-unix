@@ -20,13 +20,17 @@ public class FileUtil {
     }
 
     public static String updateAndRetrieveLatestVersion() {
-        JSONObject assetToDownload = Objects.requireNonNull(VersionUtil.getAssetToDownload());
+        JSONObject assetToDownload = VersionUtil.getAssetToDownload();
+
+        if(assetToDownload == null && getFilesFromJarsDir().length > 0) {
+            return getFilesFromJarsDir()[0].getName();
+        }
 
         if(VersionUtil.checkVersion() > 1 || getFilesFromJarsDir().length < 1) {
                 System.out.println("Download new release...");
 
                 try {
-                    URL url = new URI(assetToDownload.get("browser_download_url").toString()).toURL();
+                    URL url = new URI(Objects.requireNonNull(assetToDownload).get("browser_download_url").toString()).toURL();
 
                     InputStream inputStream = url.openStream();
                     FileOutputStream fileOutputStream = new FileOutputStream("jars/" + assetToDownload.get("name").toString());
@@ -51,7 +55,7 @@ public class FileUtil {
             System.out.println("You are up-to-date!");
         }
 
-        return Objects.requireNonNull(new File(System.getProperty("user.dir") + "/jars/" + assetToDownload.get("name").toString()).getName());
+        return Objects.requireNonNull(new File(System.getProperty("user.dir") + "/jars/" + Objects.requireNonNull(assetToDownload).get("name").toString()).getName());
     }
 
     public static void runJarFile(String fileName) {
