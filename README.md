@@ -1,11 +1,20 @@
 # microbot-launcher-unix
 
-microbot-launcher-unix is an unofficial Linux & macOS Launcher for [Microbot](https://github.com/chsami/microbot)!
+microbot-launcher-unix is an unofficial Windows, macOS and Linux Launcher for [Microbot](https://github.com/chsami/microbot)!
+
+Although it can be used on all 3 platforms just fine, it is mainly intended for using Microbot on macOS or Linux (Hence why the -unix is in the name!). For Windows you can use the [Official Launcher](https://themicrobot.com/) too.
+
+## Table of contents
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Using a Jagex Account](#using-a-jagex-account)
+- [Contributions](#contributions)
+- [Support me](#support-me)
 
 ## Features
 - Automatically downloads the latest non-nightly .jar file from GitHub releases & puts it into a /jars directory which gets created in the same folder as the launcher
 
-- Deletes older versions and checks for newer ones
+- Deletes old microbot versions and checks for new ones
   
 - Launches the .jar file for you
 
@@ -23,9 +32,11 @@ NOTE: Requires Java 11 (Just like Microbot)
 ## Using a Jagex Account
 You can use this with a Jagex Account, however you currently need to do some manual steps:
 
-- Obtain a `credentials.properties` file from a RuneLite launcher. This can be from a Windows or Mac launcher aswell, see [here](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts).
+- Obtain a `credentials.properties` file from a RuneLite launcher. This can be from a Windows, macOS or Linux Launcher. 
 
-You can however do this directly on Linux using the third-party [Bolt Launcher](https://github.com/Adamcake/Bolt/):
+For Windows and macOS, see [here](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts).
+
+For Linux using the third-party [Bolt Launcher](https://github.com/Adamcake/Bolt/):
 
 - Install Bolt Launcher from Flathub, see the link above for more info.
 
@@ -44,7 +55,9 @@ You can however do this directly on Linux using the third-party [Bolt Launcher](
 NOTE: There are probably other methods aswell. Feel free to share them!
 
 ## Contributions
-Feel free to submit a pull request if you have worked on something and think it should be implemented! Also take a look at the Issues tab for different tasks to solve (Features, Bugs) and suggest features / report bugs if you encounter anything that could be improved!
+Feel free to submit a pull request to the dev branch if you have worked on something (Feature / Bug)! 
+
+Also take a look at the Issues tab for things to solve and suggest features / report bugs if you encounter anything that could be improved!
 
 ## Support me
 If you want to support me, you can do so by sending me a donation.
