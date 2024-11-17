@@ -12,8 +12,8 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class VersionUtil {
 
-    public static Optional<JSONObject> getLatestRelease() {
-        String releasesResponseBody = HttpUtil.sendRequestAndReceiveResponseBody("https://api.github.com/repos/chsami/microbot/releases");
+    private static Optional<JSONObject> getLatestRelease() {
+        String releasesResponseBody = HttpUtil.sendRequestAndReceiveResponse("https://api.github.com/repos/chsami/microbot/releases").body();
         ArrayList<JSONObject> jsonObjects = new ArrayList<>();
 
         JSONArray jsonArray = new JSONArray(releasesResponseBody);
@@ -31,7 +31,7 @@ public class VersionUtil {
         return Optional.empty();
     }
 
-    public static String getAssetsUrl() {
+    private static String getAssetsUrl() {
         if (VersionUtil.getLatestRelease().isPresent()) {
             JSONObject latestRelease = VersionUtil.getLatestRelease().get();
 
@@ -42,7 +42,7 @@ public class VersionUtil {
     }
 
     public static JSONObject getAssetToDownload() {
-        String assetsResponseBody = Objects.requireNonNull(HttpUtil.sendRequestAndReceiveResponseBody(getAssetsUrl()));
+        String assetsResponseBody = Objects.requireNonNull(HttpUtil.sendRequestAndReceiveResponse(getAssetsUrl())).body();
         ArrayList<JSONObject> assetsJsonObjects = new ArrayList<>();
 
             JSONArray assets = new JSONArray(assetsResponseBody);

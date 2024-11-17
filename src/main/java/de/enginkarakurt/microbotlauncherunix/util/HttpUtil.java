@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class HttpUtil {
 
-    public static String sendRequestAndReceiveResponseBody(String url) {
+    public static HttpResponse<String> sendRequestAndReceiveResponse(String url) {
         HttpResponse<String> httpResponse;
         HttpClient httpClient = HttpClient.newHttpClient();
 
@@ -23,7 +23,6 @@ public class HttpUtil {
             throw new RuntimeException(e);
         }
 
-
-        return httpResponse.body();
+        return httpResponse;
     }
 }
