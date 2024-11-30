@@ -9,7 +9,6 @@ Although it can be used on all 3 platforms just fine, it is mainly intended for 
 - [How to use](#how-to-use)
 - [Using a Jagex Account](#using-a-jagex-account)
 - [Contributions](#contributions)
-- [Support me](#support-me)
 
 ## Features
 - Automatically downloads the latest non-nightly .jar file from GitHub releases & puts it into a /jars directory which gets created in the same folder as the launcher
@@ -58,8 +57,3 @@ NOTE: There are probably other methods aswell. Feel free to share them!
 Feel free to submit a pull request to the dev branch if you have worked on something (Feature / Bug)! 
 
 Also take a look at the Issues tab for things to solve and suggest features / report bugs if you encounter anything that could be improved!
-
-## Support me
-If you want to support me, you can do so by sending me a donation.
-
-Bitcoin Wallet Address: bc1qwvel984ptpnmz02zxtjqfm0skj4adz39dwx5wv
