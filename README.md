@@ -61,7 +61,10 @@ For Linux using the third-party:
 
 ![grafik](https://github.com/user-attachments/assets/3c99760e-85dd-44a4-9782-2204a7b9ee7c)
 
-5. Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: `/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/`
+5. Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: 
+```
+/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/
+```
 
 NOTE: Do NOT share this file with anyone!
 
