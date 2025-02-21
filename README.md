@@ -2,7 +2,7 @@
 
 microbot-launcher-unix is an unofficial Windows, macOS and Linux Launcher for [Microbot](https://github.com/chsami/microbot)!
 
-Although it can be used on all 3 platforms just fine, it is mainly intended for using Microbot on macOS or Linux (Hence why the -unix is in the name!). For Windows you can use the [Official Launcher](https://themicrobot.com/) too.
+Although it can be used on all 3 platforms just fine, it is mainly intended for using Microbot on macOS or Linux (hence why the -unix is in the name). For Windows you can use the [Official Launcher](https://themicrobot.com/) too.
 
 ## Table of contents
 - [Features](#features)
@@ -17,10 +17,10 @@ Although it can be used on all 3 platforms just fine, it is mainly intended for 
   
 - Launches the .jar file for you
 
-- Portable (Writes to its own directory)
+- Portable (writes to its own directory)
 
 ## How to use
-NOTE: Requires Java 11 (Just like Microbot)
+NOTE: Requires Java 11 (just like Microbot)
 
 1. Put the Launcher in the folder where you want to have the files organized.
    
@@ -72,11 +72,10 @@ NOTE: Do NOT share this file with anyone!
 ```
 /home/YOUR-USERNAME/.runelite/
 ```
+
 NOTE: If you don't have a .runelite folder at the path above, make sure to launch Microbot through the launcher once)
 
-8. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
-
-NOTE: There are probably other methods aswell. Feel free to share them!
+7. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
 
 ## Contributions
 Feel free to submit a pull request to the dev branch if you have worked on something (Feature / Bug)! 
