@@ -50,9 +50,10 @@ For Linux using the third-party [Bolt Launcher](https://github.com/Adamcake/Bolt
 ```
 --insecure-write-credentials
 ```
-NOTE: Do NOT share this file with anyone!
 
 5. Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: `/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/`
+
+NOTE: Do NOT share this file with anyone!
 
 6. Copy the `credentials.properties` file in to the `.runelite` folder at the following path (If you don't have a .runelite folder there, make sure to launch Microbot through the launcher once): `/home/YOUR-USERNAME/.runelite/`
 
