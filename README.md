@@ -38,7 +38,7 @@ Obtain a `credentials.properties` file from a RuneLite launcher. This can be fro
 
 For Windows and macOS, see [here](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts).
 
-For Linux using the third-party:
+For Linux using the third-party Bolt Launcher:
 
 1. Install [Bolt Launcher](https://flathub.org/apps/com.adamcake.Bolt) from Flathub. More information about Bolt can also be found on it's [Git Repository](https://github.com/adamcake/Bolt?tab=readme-ov-file#table-of-contents).
 
