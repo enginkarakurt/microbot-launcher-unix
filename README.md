@@ -44,14 +44,22 @@ For Linux using the third-party:
 
 - For setting up Flathub for your Linux distro, see [here](https://flathub.org/setup).
 
+![grafik](https://github.com/user-attachments/assets/4ff433fe-a889-4d31-907f-59448105c288)
+
 2. After logging into Bolt Launcher, select RuneLite as the Game client.
 
-3. Go to the Application Options and click on Configure RuneLite
+3. Go to the Application Options and click on Configure RuneLite:
+
+![grafik](https://github.com/user-attachments/assets/169546ca-a6e6-49db-99d0-8d7c0eaaa631)
+
+![grafik](https://github.com/user-attachments/assets/b1922d08-05c4-426c-8180-a6b4b7819d0c)
 
 4. In the window that pops up, paste the following argument for Client arguments:
 ```
 --insecure-write-credentials
 ```
+
+![grafik](https://github.com/user-attachments/assets/3c99760e-85dd-44a4-9782-2204a7b9ee7c)
 
 5. Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: `/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/`
 
