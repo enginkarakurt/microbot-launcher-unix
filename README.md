@@ -65,9 +65,13 @@ For Linux using the third-party:
 
 NOTE: Do NOT share this file with anyone!
 
-6. Copy the `credentials.properties` file in to the `.runelite` folder at the following path (If you don't have a .runelite folder there, make sure to launch Microbot through the launcher once): `/home/YOUR-USERNAME/.runelite/`
+6. Copy the `credentials.properties` file in to the `.runelite` folder at the following path: 
+```
+/home/YOUR-USERNAME/.runelite/
+```
+NOTE: If you don't have a .runelite folder at the path above, make sure to launch Microbot through the launcher once)
 
-7. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
+8. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
 
 NOTE: There are probably other methods aswell. Feel free to share them!
 
