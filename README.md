@@ -40,7 +40,7 @@ For Windows and macOS, see [here](https://github.com/runelite/runelite/wiki/Usin
 
 For Linux using the third-party:
 
-1. Install [Bolt Launcher](https://flathub.org/apps/com.adamcake.Bolt) from Flathub.
+1. Install [Bolt Launcher](https://flathub.org/apps/com.adamcake.Bolt) from Flathub. More information about Bolt can also be found on it's [Git Repository](https://github.com/adamcake/Bolt?tab=readme-ov-file#table-of-contents).
 
 - For setting up Flathub for your Linux distro, see [here](https://flathub.org/setup).
 
