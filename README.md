@@ -78,6 +78,6 @@ NOTE: If you don't have a .runelite folder at the path above, make sure to launc
 7. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
 
 ## Contributions
-Feel free to submit a pull request to the dev branch if you have worked on something (Feature / Bug)! 
+Feel free to submit a pull request to the dev branch if you have worked on something! 
 
-Also take a look at the Issues tab for things to solve and suggest features / report bugs if you encounter anything that could be improved!
+Also take a look at the Issues tab for things to solve and feel free to suggest features and report bugs if you encounter anything that could be improved!
