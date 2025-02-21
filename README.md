@@ -22,34 +22,41 @@ Although it can be used on all 3 platforms just fine, it is mainly intended for 
 ## How to use
 NOTE: Requires Java 11 (Just like Microbot)
 
-- Put the Launcher in the folder where you want to have the files organized.
+1. Put the Launcher in the folder where you want to have the files organized.
+   
+2. Launch using Terminal:
+```
+java -jar microbot-launcher-linux.jar
+```
 
-- Launch using Terminal: ```java -jar microbot-launcher-linux.jar```
-
-- Enjoy!
+3. Enjoy!
 
 ## Using a Jagex Account
-You can use this with a Jagex Account, however you currently need to do some manual steps:
+You can use the Launcher with a Jagex Account, however you currently need to do some manual steps:
 
-- Obtain a `credentials.properties` file from a RuneLite launcher. This can be from a Windows, macOS or Linux Launcher. 
+Obtain a `credentials.properties` file from a RuneLite launcher. This can be from a Windows, macOS or Linux Launcher. 
 
 For Windows and macOS, see [here](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts).
 
 For Linux using the third-party [Bolt Launcher](https://github.com/Adamcake/Bolt/):
 
-- Install Bolt Launcher from Flathub, see the link above for more info.
+1. Install Bolt Launcher from Flathub, see the link above for more info.
 
-- After logging into Bolt Launcher, select RuneLite as the Game client.
+2. After logging into Bolt Launcher, select RuneLite as the Game client.
 
-- Go to the Application Options and click on Configure RuneLite
+3. Go to the Application Options and click on Configure RuneLite
 
-- In the window that pops up, paste the following argument for Client arguments: `--insecure-write-credentials` (Just like the guide from RuneLite above)
+4. In the window that pops up, paste the following argument for Client arguments:
+```
+--insecure-write-credentials
+```
+NOTE: Do NOT share this file with anyone!
 
-- Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: `/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/`
+5. Now if you start RuneLite, a `credentials.properties` file will be generated to the following path: `/home/YOUR-USERNAME/.var/app/com.adamcake.Bolt/data/bolt-launcher/.runelite/`
 
-- Copy the `credentials.properties` file in to the `.runelite` folder at the following path (If you don't have a .runelite folder there, make sure to launch Microbot through the launcher once): `/home/YOUR-USERNAME/.runelite/`
+6. Copy the `credentials.properties` file in to the `.runelite` folder at the following path (If you don't have a .runelite folder there, make sure to launch Microbot through the launcher once): `/home/YOUR-USERNAME/.runelite/`
 
-- Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
+7. Now when you start Microbot through the Launcher again, it should work with your Jagex Account!
 
 NOTE: There are probably other methods aswell. Feel free to share them!
 
