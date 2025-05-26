@@ -2,7 +2,7 @@
 
 microbot-launcher-unix is an unofficial Launcher for [Microbot](https://github.com/chsami/microbot)!
 
-Although it can be used on all Windows, macOS and Linux just fine, it is mainly intended for using Microbot on macOS or Linux (hence why the -unix is in the name). For Windows you can use the [Official Launcher](https://themicrobot.com/) too.
+Although it can be used on Windows, macOS and Linux just fine, it is mainly intended for using Microbot on macOS or Linux (hence why the -unix is in the name). For Windows you can use the [Official Launcher](https://themicrobot.com/) too.
 
 ## Table of contents
 - [Features](#features)
