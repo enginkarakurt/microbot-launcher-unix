@@ -1,3 +1,5 @@
+**NOTE**: The official Microbot Launcher recently also gained support for running on Linux and macOS, see [here](https://themicrobot.com/index.html). Because of this, I have archived this repository and will keep it available for people that want to use this unofficial launcher.
+
 # microbot-launcher-unix
 
 microbot-launcher-unix is an unofficial Launcher for [Microbot](https://github.com/chsami/microbot)!
